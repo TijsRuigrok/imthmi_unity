@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SelectCrustScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0690a94bb15ce2743a4f4bc5bf596f1b, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: ae8926dc2fee0b041a1f125dd670e7fe, type: 2}
