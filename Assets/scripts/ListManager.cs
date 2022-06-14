@@ -14,7 +14,6 @@ public class ListManager : MonoBehaviour
         ListItem newListItem = Instantiate(listItem);
         newListItem.UpdateNameText(itemName);
         newListItem.transform.SetParent(list.transform);
-        newListItem.transform.position = new Vector3(0,0,0);
         LayoutRebuilder.ForceRebuildLayoutImmediate(rt);
     }
 
